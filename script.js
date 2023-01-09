@@ -13,7 +13,7 @@ function stopwatch(){
            hr = min === 59 ? hr + 1 : hr;
            timer.innerText=`${hr} :${min} :${sec}`
            start.style.display ="none"
-},10)
+},1000)
 }
 
 start.addEventListener("click" ,function(){
